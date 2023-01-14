@@ -70,3 +70,11 @@ body {
 .about__inner{
     display: flex;
 }
+
+.info__inner{
+    display: flex;
+}
+
+.features__inner{
+    display: flex;
+}
