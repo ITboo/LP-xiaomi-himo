@@ -174,9 +174,39 @@ body {
 
 }
 
+.info {
+    margin-bottom: 150px;
+}
+
 .info__inner {
     display: flex;
 }
+
+.info__img {
+    flex-basis: 570px;
+    margin-right: 60px;
+    object-fit: cover;
+}
+
+.info__right {
+    flex-basis: 490px;
+}
+
+.info__par+.info__par {
+    padding-top: 50px;
+}
+
+.info__title {
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 19px;
+    margin: 0 0 10px;
+}
+
+.info__text {
+    min-width: 450px;
+}
+
 
 .features__inner {
     display: flex;
